@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">    
+<meta name="author" content="Christian Paulo Pelayo">
+<meta name="description" content="PelayoACT2 MIDTERM">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="refresh" content="30">
+<meta property="og:title" content="Pelayo ACT2 MIDTERM">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Pelayo First Blog">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Midterm Activity 2">
+<style>
+    body{
+        text-align: center;
+    }
+    
+    h1{
+        color: rgb(234, 0, 255);
+    }
+</style>
+</head>
+<title>WD MIDTERM ACT2</title>
+<header><img src="WD-Logo.png"></header>
+<nav><a href="">Home</a>  <a href="">Location</a>  <a href="">Blog</a></nav>
+<main>
+    <body>
+        <form>
+    <h1>Book a Trip</h1>
+    <p>Book a Date <input type="date" value="2022-10-20" min='2022-10-20' max='2022-12-31'></p>
+    <p>Number of People: <input type="range" min="1" max="10" value="2" oninput="this.nextElementSibling.value = this.value"><output>2</output></p>  
+    <p>Location<input list="Place" >
+    <datalist id="Place">
+        <option value="Downtown">
+        <option value="Uptown">
+    </datalist></p>
+    <video width="320" height="240" controls muted>
+        <source src="videoo.mp4" type="video/mp4">
+        <source src="videoo.ogg" type="video/ogg">
+    </video>
+    <br>
+    <label for="rating">Rating</label>
+    <input type="range" id="rating" name="rating" list="tickmarks" step="25"/>
+    <datalist id="tickmarks">
+      <option value="0"></option>
+      <option value="25"></option>
+      <option value="50"></option>
+      <option value="75"></option>
+      <option value="100"></option>
+    </datalist>
+    <br><br>
+    <input type="checkbox" id="agree">
+    <label for="agree">I agree to the cancellation policy</label>
+    <br><br>
+    <input type="submit" value="Book Table">
+    <br><br>
+</form>
+</body>
+</main>
+<!-- <br><br><br><br><br><br><br><br><br><br> -->
+<footer>Ⓒ Copy Right 2022 - Christian Paulo B Pelayo . Made with BTS ARMY 💜💜💜</footer>
+</html>
